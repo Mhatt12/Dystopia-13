@@ -1,0 +1,4 @@
+<h1>Welcome to Dystopia 13!</h1>
+
+-<i>This server is running the <a href="https://ss13polaris.com/">Polaris</a> modification of the <a href="https://baystation12.net/">Baystation12</a> SS13 code.</i>
+<br><br>
