@@ -76,6 +76,12 @@
 //	balloonPath = /obj/item/nitrileballoon
 	drop_sound = 'sound/items/drop/leather.ogg'
 
+/obj/item/clothing/gloves/sterile/rubbergloves
+	name = "rubber gloves"
+	desc = "A pair of rubber gloves."
+	icon_state = "rubber_gloves"
+	item_state = "rubber_gloves"
+
 /obj/item/clothing/gloves/botanic_leather
 	desc = "These leather work gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin."
 	name = "botanist gloves"
