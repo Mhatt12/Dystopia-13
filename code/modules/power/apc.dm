@@ -228,15 +228,15 @@
 		name = "\improper [area.name] APC"
 	area.apc = src
 
-	if(istype(area, /area/submap))
-		alarms_hidden = TRUE
-
-	update_icon()
-
-	make_terminal()
-
-	spawn(5)
-		src.update()
+	// if(istype(area, /area/submap))
+	// 	alarms_hidden = TRUE
+	//
+	// update_icon()
+	//
+	// make_terminal()
+	//
+	// spawn(5)
+	// 	src.update()
 
 /obj/machinery/power/apc/examine(mob/user)
 	if(..(user, 1))

@@ -11,7 +11,7 @@ SUBSYSTEM_DEF(mapping)
 	if(subsystem_initialized)
 		return
 	maploader = new()
-	load_map_templates()
+	//load_map_templates()
 
 	if(config.generate_map)
 		// Map-gen is still very specific to the map, however putting it here should ensure it loads in the correct order.
@@ -19,25 +19,25 @@ SUBSYSTEM_DEF(mapping)
 			using_map.refresh_mining_turfs()
 
 
-/datum/controller/subsystem/mapping/proc/load_map_templates()
-	for(var/T in subtypesof(/datum/map_template))
-		var/datum/map_template/template = T
-		if(!(initial(template.mappath))) // If it's missing the actual path its probably a base type or being used for inheritence.
-			continue
-		template = new T()
+///datum/controller/subsystem/mapping/proc/load_map_templates()
+//	for(var/T in subtypesof(/datum/map_template))
+//		var/datum/map_template/template = T
+//		if(!(initial(template.mappath))) // If it's missing the actual path its probably a base type or being used for inheritence.
+//			continue
+//		template = new T()
 		// some faction base business.
-		if(template.faction_type)
-			switch(template.faction_type)
-				if("Blue Moon Cartel")
-					blue_moon_cartel_bases[template.name] = template
-				if("Trust Fund")
-					trust_fund_bases[template.name] = template
-				if("Quercus Coalition")
-					quercus_coalition_bases[template.name] = template
-				if("Worker's Union")
-					workers_union_bases[template.name] = template
-				if("Generic")
-					generic_bases[template.name] = template
-		else
-			map_templates[template.name] = template
-	return TRUE
+//		if(template.faction_type)
+//			switch(template.faction_type)
+//				if("Blue Moon Cartel")
+//					blue_moon_cartel_bases[template.name] = template
+//				if("Trust Fund")
+//					trust_fund_bases[template.name] = template
+//				if("Quercus Coalition")
+//					quercus_coalition_bases[template.name] = template
+//				if("Worker's Union")
+//					workers_union_bases[template.name] = template
+//				if("Generic")
+//					generic_bases[template.name] = template
+//		else
+//			map_templates[template.name] = template
+//	return TRUE
