@@ -295,7 +295,7 @@
 
 /datum/modifier/trait/phobia/claustrophobe
 	name = "claustrophobia"
-	desc = "Small spaces and tight quarters makes you feel distressed.  Unfortunately both are rather common when living in Geminus."
+	desc = "Small spaces and tight quarters makes you feel distressed.  Unfortunately both are rather common when living in Genesis."
 	fear_decay_rate = 2
 
 	var/open_tiles_needed = 15 // Tends to be just right, as maint triggers this but hallways don't.
@@ -666,4 +666,3 @@
 		"WetSkrell was a mistake."
 		)
 	return pick(generic_responses)
-

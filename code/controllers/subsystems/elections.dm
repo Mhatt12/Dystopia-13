@@ -395,7 +395,7 @@ SUBSYSTEM_DEF(elections)
 	for(var/datum/president_candidate/PC in former_candidates)
 		message += "<b>[PC.name]</b> - [PC.ckeys_voted.len] votes(s)<br>"
 
-	news_network.SubmitArticle(message, pick(electoral_assistants), "Geminus Standard", null, null, "", "[current_president.name] Wins [get_month_from_num(get_game_month())] [get_game_year()] Election with [current_president.ckeys_voted.len] Votes Out of [last_election_votes]")
+	news_network.SubmitArticle(message, pick(electoral_assistants), "Genesis Standard", null, null, "", "[current_president.name] Wins [get_month_from_num(get_game_month())] [get_game_year()] Election with [current_president.ckeys_voted.len] Votes Out of [last_election_votes]")
 	news_data.save_main_news()
 
 	return 1
@@ -431,4 +431,3 @@ SUBSYSTEM_DEF(elections)
 
 	return 1
 */
-

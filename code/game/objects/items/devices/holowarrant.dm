@@ -61,15 +61,15 @@ var/activetype = null //Is this a search or arrest warrtant?
 	if(activetype == "arrest")
 		var/output = {"
 		<HTML><HEAD><TITLE>[activename]</TITLE></HEAD>
-		<BODY bgcolor='#FFFFFF'><center><large><b>Geminus City Police Department Bureau</b></large></br>
-		in the jurisdiction of the Colonial Polluxian Government</br>
+		<BODY bgcolor='#FFFFFF'><center><large><b>Genesis City Police Department Bureau</b></large></br>
+		in the jurisdiction of the Colonial Mars Government</br>
 		</br>
 		</br>
 		<b>ARREST WARRANT</b></center></br>
 		</br>
 		This document serves as authorization and notice for the arrest of _<u>[activename]</u>____ for the crime(s) of:</br>[activecharges]</br>
 		</br>
-		Area of Warrant: _<u>Geminus City</u>____</br>
+		Area of Warrant: _<u>Genesis City</u>____</br>
 		</br>_<u>[activeauth]</u>____</br>
 		<small>Person authorizing arrest</small></br>
 		</BODY></HTML>
@@ -99,7 +99,7 @@ var/activetype = null //Is this a search or arrest warrtant?
 		</br>
 		<b>Warrant issued by: </b> [activeauth]</br>
 		</br>
-		Location: _<u>Geminus City</u>____</br>
+		Location: _<u>Genesis City</u>____</br>
 		</BODY></HTML>
 		"}
 		show_browser(user, output, "window=Search warrant for [activename]")

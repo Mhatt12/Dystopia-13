@@ -2,11 +2,11 @@
 /datum/website/news
 	var/datum/feed_channel/news_source
 
-/datum/website/news/geminus_standard
-	title = "Geminus Standard"
-	name = "geminus-standard.nt"
+/datum/website/news/genesis_standard
+	title = "Genesis Standard"
+	name = "genesis-standard.nt"
 
-/datum/website/news/geminus_standard/New()
+/datum/website/news/genesis_standard/New()
 	..()
 
 	if(!news_source && news_data)
@@ -68,7 +68,3 @@
 
 
 	nm.refresh(usr)
-
-
-
-

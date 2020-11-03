@@ -1796,7 +1796,7 @@ area/space/atmosalert()
 	music = 'sound/ambience/signal.ogg'
 
 /area/medical/psych
-	name = "\improper Geminus City Asylum"
+	name = "\improper Genesis City Asylum"
 	icon_state = "medbay3"
 	music = 'sound/ambience/signal.ogg'
 

@@ -273,7 +273,7 @@
 /datum/bounty/mining/public_works
 	name = "Open Contract: Public Works"
 	author = "Government of Pollux"
-	description = "The Government of Pollux formally requests the following materials for use in Public Works projects. Under our Tranparency Policy, the assets will be used for the field \
+	description = "The Government of Mars formally requests the following materials for use in Public Works projects. Under our Tranparency Policy, the assets will be used for the field \
 	level maintenance, field service representative support, contingency maintenance support, new equipment training and total package fielding for the family of Ubentia auto-loader vehicles \
 	and construction line. Further information about this contract can be found at publicworks.gov.nt using the tracking code PWOC-1008-2564V."
 
@@ -286,9 +286,9 @@
 
 /datum/bounty/mining/industrial_supplies
 	name = "Open Contract: Industrial & Commercial Supplies"
-	author = "Geminus City Office of General Services"
+	author = "Genesis City Office of General Services"
 	description = "The GCOGS has created this open contract, available to all Extraction Industries in the Blue Colony. Development has begun on a new artificial island off the coast of the city. \
-	Industrial quantities of reclaimed land are required for this feat, the first of its kind in the Commonwealth. Further information about this contract can be found at geminuscity.gov.nt using \
+	Industrial quantities of reclaimed land are required for this feat, the first of its kind in the Commonwealth. Further information about this contract can be found at genesiscity.gov.nt using \
 	the tracking code GCOC-0410-2020W."
 
 	stacks_wanted = list("sandstone" = 1500)
