@@ -607,6 +607,19 @@
 /obj/item/ammo_magazine/m762svd/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/ak47/
+	name = "ak47 magazine (7.62mm)"
+	icon_state = "ak47"
+	mag_type = MAGAZINE
+	caliber = "7.62mm"
+	matter = list(DEFAULT_WALL_MATERIAL = 2000, "copper" = 500)
+	ammo_type = /obj/item/ammo_casing/a762
+	max_ammo = 30
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/ak47/empty
+	initial_ammo = 0
+
 ///////// 12g /////////
 
 /obj/item/ammo_magazine/m12gdrum
