@@ -1,4 +1,4 @@
-[center][b]Pollux Division of Special Investigations[/b]
+[center][b]Mars Division of Special Investigations[/b]
 [small]Report form PDSI-RT01[/small][/center]
 
 Reporting Individual:[field]
@@ -9,7 +9,7 @@ Personnel Involved: [small][b](Name and Job Title. Offender/Witness/Other)[/b][/
 [field]
 
 
-Time of Incident[[small][i][b]Pollux Time and date[/b][/i][/small]]:[field]
+Time of Incident[[small][i][b]Martian Time and date[/b][/i][/small]]:[field]
 Real Time[[small][i][b]Sol Standard Time and date[/b][/i][/small]]:[field]
 Location of Incident:[field]
 
@@ -28,7 +28,7 @@ Nature of Incident:
 [field]
 
 
-Did you report it to City Council or a representative for the Pollux Division of Special Investigations?: [b]Y[/b][[field] ]  [b]N[/b][[field] ]
+Did you report it to City Council or a representative for the Mars Division of Special Investigations?: [b]Y[/b][[field] ]  [b]N[/b][[field] ]
 
 [b](If Yes)[/b]
 Who was it reported to:[field]
@@ -37,7 +37,7 @@ What actions were taken:[field]
 
 Signature:[field]
 
-[hr][b][center]POLLUX DIVISION OF SPECIAL INVESTIGATIONS SECTION
+[hr][b][center]MARS DIVISION OF SPECIAL INVESTIGATIONS SECTION
 [i][small]INTERNAL USE ONLY[/small][/i][/center][/b]
 
 

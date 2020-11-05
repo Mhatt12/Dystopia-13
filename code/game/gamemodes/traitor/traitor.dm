@@ -9,7 +9,7 @@
 		The familiar faces that you've passed hundreds of times down the streets before can be hiding terrible \
 		secrets and deceptions. Every corner is a mystery. Every conversation is a lie. You will be facing your \
 		friends and family as they try to use your emotions and trust to their advantage, leaving you with nothing \
-		but the painful reminder that Pollux is cruel and unforgiving."
+		but the painful reminder that Mars is cruel and unforgiving."
 	config_tag = "traitor"
 	required_players = 1
 	required_players_secret = 1

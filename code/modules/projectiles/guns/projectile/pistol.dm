@@ -111,7 +111,7 @@
 
 /obj/item/weapon/gun/projectile/police
 	name = ".45 handgun"
-	desc = "The SO Enforcer is a simple yet efficent firearm favored by law enforcement agencies on Pollux. Uses .45 rounds."
+	desc = "The SO Enforcer is a simple yet efficent firearm favored by law enforcement agencies on Mars. Uses .45 rounds."
 	icon_state = "enforcer_black"
 	magazine_type = /obj/item/ammo_magazine/m45
 	projectile_type = /obj/item/projectile/bullet/pistol/medium
@@ -307,7 +307,7 @@
 	..()
 
 /obj/item/weapon/gun/projectile/pirate/thug
-	desc = "Little more than a barrel, handle, and firing mechanism, cheap makeshift firearms like this one are not uncommon in Pollux underworld. Uses 12g rounds"
+	desc = "Little more than a barrel, handle, and firing mechanism, cheap makeshift firearms like this one are not uncommon in Mars underworld. Uses 12g rounds"
 	ammo_type = /obj/item/ammo_casing/a12g
 
 /obj/item/weapon/gun/projectile/derringer

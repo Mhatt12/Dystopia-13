@@ -1,4 +1,4 @@
-var/global/const/base_law_type = /datum/ai_laws/pollux
+var/global/const/base_law_type = /datum/ai_laws/mars
 
 /datum/ai_law
 	var/law = ""

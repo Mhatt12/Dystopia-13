@@ -149,8 +149,8 @@
 
 		<h2>Terms and Conditions</h2>
 
-		<p>All businesses must remain in accordance with Polluxian law. If a business is found to be participating in illegal activity it will be suspended pending investigation.
-		The Polluxian Government & NanoTrasen reserves the right to request an audit at any given time. Failure to comply with auditing procedures may result in the termination of your company.</p>
+		<p>All businesses must remain in accordance with Martian law. If a business is found to be participating in illegal activity it will be suspended pending investigation.
+		The Martian Government reserves the right to request an audit at any given time. Failure to comply with auditing procedures may result in the termination of your company.</p>
 
 		<h2>Disclaimer</h2>
 			<p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our utility and the use of this utility including, without limitation, any warranties implied by law in respect of satisfactory quality, fitness for purpose and/or the use of reasonable care and skill. Nothing in this disclaimer will:</p>

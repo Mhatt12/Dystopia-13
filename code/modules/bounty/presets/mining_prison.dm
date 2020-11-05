@@ -55,8 +55,8 @@
 	department_reward = 400
 
 /datum/bounty/prison_mining/sol_gold // yes even sol
-	name = "Sol Mineral Exports: Gold"
-	description = "As you may know, gold is running scarce on Earth and Mars, we're not fond of buying this at such inflated prices which is why we \
+	name = "Earh Mineral Exports: Gold"
+	description = "As you may know, gold is running scarce on Earth, we're not fond of buying this at such inflated prices which is why we \
 	have come to you. We'll cover the bluespace teleportation fee."
 	author_department = DEPT_SOLGOV
 	items_wanted = list(/obj/item/weapon/ore/gold = 100)
@@ -64,7 +64,7 @@
 	department_reward = 1400
 
 /datum/bounty/prison_mining/sol_silver
-	name = "Sol Mineral Exports: Silver"
+	name = "Earh Mineral Exports: Silver"
 	description = "Space faring colonies treat silver as if it were platinum - not that they could tell the difference, please send us some - we'll pay for \
 	travel."
 	author_department = DEPT_SOLGOV
@@ -73,16 +73,16 @@
 	department_reward = 900
 
 /datum/bounty/prison_mining/solgov_phoron // yes even solgov
-	name = "SolGov Phoron Trade Agreement"
-	description = "As per the SolGov and Polluxian trade agreement please send a fixed sum of phoron, as promised we will reimburse and cover bluespace costs."
+	name = "Earth Phoron Trade Agreement"
+	description = "As per the Earth and Mars trade agreement please send a fixed sum of phoron, as promised we will reimburse and cover bluespace costs."
 	author_department = DEPT_SOLGOV
 	items_wanted = list(/obj/item/weapon/ore/phoron = 300)
 
 	department_reward = 3400
 
 /datum/bounty/prison_mining/solgov_uranium
-	name = "SolGov Uranium Trade Agreement"
-	description = "As per the SolGov and Polluxian trade agreement please send a fixed sum of uranium, as promised we will reimburse and cover bluespace costs."
+	name = "Earth Uranium Trade Agreement"
+	description = "As per the Earh and Nars trade agreement please send a fixed sum of uranium, as promised we will reimburse and cover bluespace costs."
 	author_department = DEPT_SOLGOV
 	items_wanted = list(/obj/item/weapon/ore/uranium = 150)
 

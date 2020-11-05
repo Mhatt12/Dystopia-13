@@ -75,12 +75,12 @@
 	categories = list(CAT_HEALTH)
 
 /datum/department/pdf
-	name = "Pollux Defense Force"
+	name = "Martian Defense Force"
 	id = DEPT_PDF
-	desc = "Nanotrasen's Pollux Defense Force - the city pays a staggering amount of money to call for this department. "
+	desc = "The Martian Defense Force - the city pays a staggering amount of money to call for this department. "
 	starting_money = 5000
 	dept_color = "#3F823F"
-	
+
 // Factory is now a public department.
 /datum/department/factory
 	name = "Factory"

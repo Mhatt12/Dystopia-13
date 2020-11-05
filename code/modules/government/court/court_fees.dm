@@ -46,6 +46,6 @@ var/global/list/court_fees = list()
 	cost = 100
 
 /datum/court_fee/high_court_appeal
-	name = "High Court of Pollux Appeal Fee"
-	description = "A fee to cover the cost inccured by the High Court of the Republic of Pollux to hear an appeal."
+	name = "High Court of Mars Appeal Fee"
+	description = "A fee to cover the cost inccured by the High Court of the Colonial Initiative of Mars to hear an appeal."
 	cost = 1000

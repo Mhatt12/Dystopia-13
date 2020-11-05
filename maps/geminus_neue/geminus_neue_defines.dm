@@ -13,14 +13,14 @@
 
 	zlevel_datum_type = /datum/map_z_level/geminus_neue
 
-	station_name  = "Geminus City"
-	station_short = "Geminus"
-	dock_name     = "Geminus City Airbus"
-	boss_name     = "Central Polluxian Government"
-	boss_short    = "Pollux Gov"
+	station_name  = "Genesis City"
+	station_short = "Genesis"
+	dock_name     = "Genesis City Airbus"
+	boss_name     = "Central Martian Government"
+	boss_short    = "Martian Gov"
 	company_name  = "Nanotrasen"
 	company_short = "NT"
-	starsys_name  = "Vetra"
+	starsys_name  = "Sol"
 
 	shuttle_docked_message = "The scheduled air shuttle to the %dock_name% has arrived far east of the city. It will depart in approximately %ETD%."
 	shuttle_leaving_dock = "The Civilian Transfer shuttle has left. Estimate %ETA% until the airbus docks at %dock_name%."
@@ -33,10 +33,10 @@
 
 	allowed_spawns = list("City Arrivals Airbus", "Cryogenic Storage", "Prison")
 
-//	planet_datums_to_make = list(/datum/planet/pollux)
+//	planet_datums_to_make = list(/datum/planet/mars)
 
-	usable_email_tlds = list("freemail.net", "ntmail.nt", "interpollux.org", "solnet.org", "vetralife.nt", "andromedian.org")
-	default_law_type = /datum/ai_laws/pollux
+	usable_email_tlds = list("freemail.net", "ntmail.nt", "intermars.org", "solnet.org", "vetralife.nt", "andromedian.org")
+	default_law_type = /datum/ai_laws/mars
 
 	station_networks = list(
 							NETWORK_CARGO,
@@ -109,7 +109,7 @@
 	transit_chance = 50
 	base_turf = /turf/simulated/floor/outdoors/dirt
 
-/datum/planet/pollux
+/datum/planet/mars
 	expected_z_levels = list(
 		Z_LEVEL_SECOND_GEMINUS,
 		Z_LEVEL_THIRD_GEMINUS,
@@ -118,9 +118,8 @@
 
 /datum/map/geminus_neue/get_map_info()
 	. = list()
-	. +=  "[full_name] is a very well-known metropolitan city in Blue Colony located on the planet Pollux.<br>"
-	. +=  "Pollux exists in the Vetra star system which is entirely monopolized by NanoTrasen acting as a quasi-corporate government."
+	. +=  "[full_name] is a recent addition to the colonial effort of Mars.<br>"
+	. +=  "Mars exists in the Sol star system which is entirely monopolized by NanoTrasen acting as a quasi-corporate government."
 	. +=  "Being one of the first cities and initially a mining colony, Geminus has a rich history and is home to many descendants of the first prospectors.<br> "
 	. +=  "There's a definite class struggle, as working class Geminians feel pushed out by the richer colonists who wish to further gentrify the city and make it... <i>more profitable, more corporate, more <b>chic</b></i>."
 	return jointext(., "<br>")
-

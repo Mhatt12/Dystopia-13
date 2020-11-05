@@ -59,7 +59,7 @@
 /turf/simulated/wall/plastic/hospital,
 /area/medical/psych/psychroom3)
 "aq" = (
-/turf/unsimulated/wall/planetary/pollux,
+/turf/unsimulated/wall/planetary/mars,
 /area/planets/Geminus/outdoor/sky)
 "ar" = (
 /turf/simulated/wall/disco,

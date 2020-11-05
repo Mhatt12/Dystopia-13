@@ -19,7 +19,7 @@
 	author = "Blue Colony Commitee of Environmentalism"
 	description = "We've already ruined one planet with our wasteful ways and non-biodegradable waste! Do a good deed today \
 	and get paid while you're at it! Pick up any cardboard boxes you find out on the streets and send it to us for recycling! Let's keep \
-	Pollux clean for future generations! Be sure to flatten the boxes before sending them!"
+	Mars clean for future generations! Be sure to flatten the boxes before sending them!"
 
 	items_wanted = list(/obj/item/stack/material/cardboard = 30)
 

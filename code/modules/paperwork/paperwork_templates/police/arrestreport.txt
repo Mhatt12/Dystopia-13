@@ -69,7 +69,7 @@ Required Medical Treatment[/b][cell][[field]]
 
 Responding Officer's Name (Printed) :[field]
 
-[small][i]I, [field], do affirm that the information above is true and correct to the best of my knowledge and transcribed to the best of my ability. By signing below, I hereby acknowledge that I may be held guilty of Obstruction of Justice under Pollux Criminal Code i223, or Gross Negligence under Pollux Criminal Code i220.[/i]
+[small][i]I, [field], do affirm that the information above is true and correct to the best of my knowledge and transcribed to the best of my ability. By signing below, I hereby acknowledge that I may be held guilty of Obstruction of Justice under Mars Criminal Code i223, or Gross Negligence under Martian Criminal Code i220.[/i]
 
 [b]Officer Signature:[/b][field]
 [b]Date[/b] [i][small](YYYY-MM-DD)[/small][/i]:   [field]

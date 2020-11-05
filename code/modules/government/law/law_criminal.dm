@@ -32,7 +32,7 @@
 
 	fine = 500
 	cell_time = 20
-	
+
 /datum/law/criminal/property
 	name = "Property Damage"
 	description = "To damage or destroy public or private property."
@@ -72,7 +72,7 @@
 
 	notes = "Your personal records (security, medical and employment), confidential \
 	information passed to your doctor or lawyer as well as your identification card, \
-	personal items and property are protected by the Polluxian privacy laws. \
+	personal items and property are protected by the Martian privacy laws. \
 	Spreading such information without your approval, neglecting to properly \
 	secure it falls under this charge as well as unauthorized searches of \
 	your personal property. In addition, so does spying on you through a non-governmental camera console. \
@@ -211,7 +211,7 @@
 
 /datum/law/criminal/misconduct
 	name = "Weapon Handling Misconduct"
-	description = "Any citizen of Pollux with a valid weapon permit found to be committing a crime with it or not following proper concealment protocol for said weapon can be charged for this. \
+	description = "Any citizen of Mars with a valid weapon permit found to be committing a crime with it or not following proper concealment protocol for said weapon can be charged for this. \
 	After three strikes, counting repeat offender price/timer modifiers, the weapon permit shall be hereby null and the weapon confiscated."
 
 	fine = 4000
@@ -228,7 +228,7 @@
 	name = "Contempt of Court"
 	description = "To be disrespectful towards the Court of law, in the form of \
 	behaviour that defies the authority, justice and dignity of the Court."
-	
+
 	notes = "Only applies in within court."
 
 	fine = 1000
@@ -242,7 +242,7 @@
 	notes = "This law only covers discriminatory language that is designed to incite violence towards innate traits that are protected. \
 	This covers star system nationality or origin, baseline vatborns, any social background, people who have full prosethetic bodies or \
 	robotic limbs, but does not qualify for non-humans, such as synthetics or robots."
-	
+
 /datum/law/criminal/tax_evasion
     name = "Tax Evasion"
     description = "To delibrately evade tax where it usually applies through electronic and non-electronic mediums. \
@@ -253,10 +253,10 @@
     notes = "For a business owner to be charged with this, there needs to be evidence that they were aware this was taking place. Business owners who are \
     aware of this occuring due to technical errors or employee misconduct are required to notify authorities as soon as possible and refund the tax losses \
     to prevent prosecution."
-    
+
     fine = 3000
     cell_time = 25
-    
+
 /datum/law/criminal/resisting
 	name = "Resisting Arrest"
 	description = "To resist a lawful arrest in a non-violent manner."

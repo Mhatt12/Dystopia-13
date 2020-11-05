@@ -21,8 +21,8 @@
 /datum/bounty/health_pharma/mental_asylum
 	name = "Definitely A Medical Emergency"
 	author = "Falsus Mental Asylum"
-	description = "We’re running dangerously low on Chloral Hydrate, and some of our more... interesting patients are starting to wake up. \
-	We need a restock in order to keep our \"patients\" completely sedated until they’re ready for \"treatment\". Yes. Treatment."
+	description = "Weï¿½re running dangerously low on Chloral Hydrate, and some of our more... interesting patients are starting to wake up. \
+	We need a restock in order to keep our \"patients\" completely sedated until theyï¿½re ready for \"treatment\". Yes. Treatment."
 
 	reagents_wanted = list("chloralhydrate" = 30)
 
@@ -33,9 +33,9 @@
 
 /datum/bounty/health_pharma/bitter_medicine
 	name = "Bitter Medicine"
-	author = "Pollux Charitable Foundation"
-	description = "We’re running low on basic medical supplies for our people. We need Bicardine and Trauma Kits desperately, \
-	but we don’t have much money. We hope this will suffice."
+	author = "Mars Charitable Foundation"
+	description = "Weï¿½re running low on basic medical supplies for our people. We need Bicardine and Trauma Kits desperately, \
+	but we donï¿½t have much money. We hope this will suffice."
 
 	reagents_wanted = list("bicaridine" = 20)
 

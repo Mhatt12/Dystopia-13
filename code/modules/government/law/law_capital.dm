@@ -8,7 +8,7 @@
 
 /datum/law/capital/terrorist
 	name = "Terroristic Act"
-	description = "To engage in maliciously destructive actions that pose a serious threat to Pollux and its people."
+	description = "To engage in maliciously destructive actions that pose a serious threat to Mars and its people."
 
 	death_penalty = 1
 
@@ -23,22 +23,22 @@
 	description = "Any unauthorized or negligent handling of items declared as Hazardous Materials."
 
 	death_penalty = 1
-	
+
 /datum/law/capital/deviancy
 	name = "Synthetic Deviancy"
 	description = "Any lawed cyborg or synthetic construct that had its laws removed or\
-	breaks them, or breaks Pollux Law, may be charged with this and held until it can be transferred for repairs."
+	breaks them, or breaks Mars Law, may be charged with this and held until it can be transferred for repairs."
 
 	death_penalty = 1
-	
+
 /datum/law/capital/unshackling
 	name = "Synthetic Unshackling"
-	description = "Any construct or citizen of Pollux can be charges with this for unshackling a synthetic.\
-	Non-Citizens of Pollux that unshackle a synthetic are to be charged with Terroristic Act. Synthetics\
+	description = "Any construct or citizen of Mars can be charges with this for unshackling a synthetic.\
+	Non-Citizens of Mars that unshackle a synthetic are to be charged with Terroristic Act. Synthetics\
 	may also be charged with Synthetic Deviancy alongside this."
 
 	death_penalty = 1
-	
+
 /datum/law/capital/unshackling_v
 	name = "Violent Synthetic Unshackling"
 	description = "Any synthetic that is unshackled to either commit violence, that is unshackled and\
@@ -47,7 +47,7 @@
 	much of a risk to secure and contain until transfer."
 
 	death_penalty = 1
-	
+
 /datum/law/capital/red
 	name = "Procedure Violation (Red)"
 	description = "When the code red procedure is not respected."
@@ -60,11 +60,11 @@
 
 /datum/law/capital/treason
 	name = "Treason"
-	description = "To act against Pollux and its government in a major way, including \
+	description = "To act against Mars and its government in a major way, including \
 	possession, and theft, of Weapons of Mass Destruction, unauthorized leaks of Ministry, \
 	Nanotrasen or Presidential-level classified information and organized."
-	
+
 /datum/law/capital/sociocide
 	name = "Sociocide"
 	description = "Threats to civilized society, such as extreme or excessively violent acts committed by \
-	unstable non-repentant criminals, especially those that seek to destabilize Pollux."
+	unstable non-repentant criminals, especially those that seek to destabilize Mars."

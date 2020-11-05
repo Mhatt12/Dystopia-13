@@ -1,27 +1,27 @@
-var/datum/planet/pollux/planet_pollux = null
+var/datum/planet/mars/planet_mars = null
 
-/datum/planet/pollux
-	name = "Pollux"
+/datum/planet/mars
+	name = "Mars"
 
-/datum/planet/pollux
-	name = "Pollux"
-	desc = "Pollux is a terrestrial planet in the Vir system. It is somewhat earth-like, in that it has oceans, a \
-	breathable atmosphere, a magnetic field, weather, and similar gravity to Earth. It is currently the capital planet of Vetra. \
-	Its center of government is the equatorial city and site of first settlement, Geminus Cit." // Ripped straight from the wiki.
-	current_time = new /datum/time/pollux() // 32 hour clocks are nice.
+/datum/planet/mars
+	name = "mars"
+	desc = "Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. \
+	Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. \
+	Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide." // Ripped straight from the wiki.
+	current_time = new /datum/time/mars() // 32 hour clocks are nice.
 //	expected_z_levels = list(1) // To be changed when real map is finished.
-	planetary_wall_type = /turf/unsimulated/wall/planetary/pollux
+	planetary_wall_type = /turf/unsimulated/wall/planetary/mars
 
-	sun_name = "Vetra"
-	moon_name = "Castor"
+	sun_name = "Sol"
+	moon_name = "Phobos"
 
-/datum/planet/pollux/New()
+/datum/planet/mars/New()
 	..()
-	planet_pollux = src
-	weather_holder = new /datum/weather_holder/pollux(src) // Cold weather is also nice.
+	planet_mars = src
+	weather_holder = new /datum/weather_holder/mars(src) // Cold weather is also nice.
 
 // This code is horrible.
-/datum/planet/pollux/update_sun()
+/datum/planet/mars/update_sun()
 	..()
 	var/datum/time/time = current_time
 	var/length_of_day = time.seconds_in_day / 10 / 60 / 60 // 32
@@ -100,36 +100,36 @@ var/datum/planet/pollux/planet_pollux = null
 	spawn(1)
 		update_sun_deferred(2, new_brightness, new_color)
 
-// We're gonna pretend there are 32 hours in a pollux day instead of 32.64 for the purposes of not losing sanity.  We lose 38m 24s but the alternative is a path to madness.
-/datum/time/pollux
+// We're gonna pretend there are 32 hours in a mars day instead of 32.64 for the purposes of not losing sanity.  We lose 38m 24s but the alternative is a path to madness.
+/datum/time/mars
 	seconds_in_day = 60 * 60 * 32 * 10 // 115,200 seconds.  If we did 32.64 hours/day it would be around 117,504 seconds instead.
 
-// Returns the time datum of pollux.
-/proc/get_pollux_time()
-	if(planet_pollux)
-		return planet_pollux.current_time
+// Returns the time datum of mars.
+/proc/get_mars_time()
+	if(planet_mars)
+		return planet_mars.current_time
 
 //Weather definitions
-/datum/weather_holder/pollux
+/datum/weather_holder/mars
 	temperature = T0C
 	allowed_weather_types = list(
-		WEATHER_CLEAR		= new /datum/weather/pollux/clear(),
-		WEATHER_OVERCAST	= new /datum/weather/pollux/overcast(),
-		WEATHER_LIGHT_SNOW	= new /datum/weather/pollux/light_snow(),
-		WEATHER_SNOW		= new /datum/weather/pollux/snow(),
-		WEATHER_BLIZZARD	= new /datum/weather/pollux/blizzard(),
-		WEATHER_RAIN		= new /datum/weather/pollux/rain(),
-		WEATHER_STORM		= new /datum/weather/pollux/storm(),
-		WEATHER_HAIL		= new /datum/weather/pollux/hail(),
-		WEATHER_BLOOD_MOON	= new /datum/weather/pollux/blood_moon(),
-		WEATHER_ACID_RAIN	= new /datum/weather/pollux/acid_rain(),
-		WEATHER_RADSTORM	= new /datum/weather/pollux/rad_storm(),
-		WEATHER_CARPFALL 	= new /datum/weather/pollux/carpfall(),
-		WEATHER_CARPNADO 	= new /datum/weather/pollux/carpnado(),
-		WEATHER_BLOOD_MOON	= new /datum/weather/pollux/blood_moon(),
-//		WEATHER_EMBERFALL	= new /datum/weather/pollux/emberfall(),
-//		WEATHER_ASH_STORM	= new /datum/weather/pollux/ash_storm(),
-//		WEATHER_FALLOUT	= new /datum/weather/pollux/fallout()
+		WEATHER_CLEAR		= new /datum/weather/mars/clear(),
+		WEATHER_OVERCAST	= new /datum/weather/mars/overcast(),
+		WEATHER_LIGHT_SNOW	= new /datum/weather/mars/light_snow(),
+		WEATHER_SNOW		= new /datum/weather/mars/snow(),
+		WEATHER_BLIZZARD	= new /datum/weather/mars/blizzard(),
+		WEATHER_RAIN		= new /datum/weather/mars/rain(),
+		WEATHER_STORM		= new /datum/weather/mars/storm(),
+		WEATHER_HAIL		= new /datum/weather/mars/hail(),
+		WEATHER_BLOOD_MOON	= new /datum/weather/mars/blood_moon(),
+		WEATHER_ACID_RAIN	= new /datum/weather/mars/acid_rain(),
+		WEATHER_RADSTORM	= new /datum/weather/mars/rad_storm(),
+		WEATHER_CARPFALL 	= new /datum/weather/mars/carpfall(),
+		WEATHER_CARPNADO 	= new /datum/weather/mars/carpnado(),
+		WEATHER_BLOOD_MOON	= new /datum/weather/mars/blood_moon(),
+//		WEATHER_EMBERFALL	= new /datum/weather/mars/emberfall(),
+//		WEATHER_ASH_STORM	= new /datum/weather/mars/ash_storm(),
+//		WEATHER_FALLOUT	= new /datum/weather/mars/fallout()
 		)
 	roundstart_weather_chances = list(
 		WEATHER_CLEAR		= 30,
@@ -142,12 +142,12 @@ var/datum/planet/pollux/planet_pollux = null
 		WEATHER_HAIL		= 2.5
 		)
 
-/datum/weather/pollux
-	name = "pollux base"
+/datum/weather/mars
+	name = "mars base"
 	temp_high = 283.15	// 10c
 	temp_low = 263.15	// -10c
 
-/datum/weather/pollux/clear
+/datum/weather/mars/clear
 	name = "clear"
 	transition_chances = list(
 		WEATHER_CLEAR = 60,
@@ -161,7 +161,7 @@ var/datum/planet/pollux/planet_pollux = null
 	sky_visible = TRUE
 	observed_message = "The sky is clear."
 
-/datum/weather/pollux/overcast
+/datum/weather/mars/overcast
 	name = "overcast"
 	light_modifier = 0.8
 	transition_chances = list(
@@ -179,7 +179,7 @@ var/datum/planet/pollux/planet_pollux = null
 		"It's very cloudy."
 		)
 
-/datum/weather/pollux/light_snow
+/datum/weather/mars/light_snow
 	name = "light snow"
 	icon_state = "snowfall_light"
 	temp_high = T0C		// 0c
@@ -197,7 +197,7 @@ var/datum/planet/pollux/planet_pollux = null
 		"It begins to snow lightly.",
 		)
 
-/datum/weather/pollux/snow
+/datum/weather/mars/snow
 	name = "moderate snow"
 	icon_state = "snowfall_med"
 	temp_high = T0C		// 0c
@@ -222,7 +222,7 @@ var/datum/planet/pollux/planet_pollux = null
 //	outdoor_sounds_type = /datum/looping_sound/weather/outside_snow
 //	indoor_sounds_type = /datum/looping_sound/weather/inside_snow
 
-/datum/weather/pollux/snow/process_effects()
+/datum/weather/mars/snow/process_effects()
 	..()
 	for(var/turf/simulated/floor/outdoors/snow/S in SSplanets.new_outdoor_turfs) //This didn't make any sense before SSplanets, either
 		if(S.z in holder.our_planet.expected_z_levels)
@@ -232,7 +232,7 @@ var/datum/planet/pollux/planet_pollux = null
 					if(istype(T, /turf/simulated/floor/outdoors) && prob(33))
 						T.chill()
 
-/datum/weather/pollux/blizzard
+/datum/weather/mars/blizzard
 	name = "blizzard"
 	icon_state = "snowfall_heavy"
 	temp_high = 243.15 // -30c
@@ -256,7 +256,7 @@ var/datum/planet/pollux/planet_pollux = null
 //	outdoor_sounds_type = /datum/looping_sound/weather/outside_blizzard
 //	indoor_sounds_type = /datum/looping_sound/weather/inside_blizzard
 
-/datum/weather/pollux/blizzard/process_effects()
+/datum/weather/mars/blizzard/process_effects()
 	..()
 	for(var/turf/simulated/floor/outdoors/snow/S in SSplanets.new_outdoor_turfs) //This didn't make any sense before SSplanets, either
 		if(S.z in holder.our_planet.expected_z_levels)
@@ -266,7 +266,7 @@ var/datum/planet/pollux/planet_pollux = null
 					if(istype(T, /turf/simulated/floor/outdoors) && prob(50))
 						T.chill()
 
-/datum/weather/pollux/rain
+/datum/weather/mars/rain
 	name = "rain"
 	icon_state = "rain"
 	light_modifier = 0.5
@@ -288,7 +288,7 @@ var/datum/planet/pollux/planet_pollux = null
 //	outdoor_sounds_type = /datum/looping_sound/weather/rain
 //	indoor_sounds_type = /datum/looping_sound/weather/rain/indoors
 
-/datum/weather/pollux/rain/process_effects()
+/datum/weather/mars/mars/process_effects()
 	..()
 	for(var/mob/living/L in living_mob_list)
 		if(L.z in holder.our_planet.expected_z_levels)
@@ -314,7 +314,7 @@ var/datum/planet/pollux/planet_pollux = null
 			if(show_message)
 				to_chat(L, effect_message)
 
-/datum/weather/pollux/storm
+/datum/weather/mars/storm
 	name = "storm"
 	icon_state = "storm"
 	temp_high = 243.15 // -30c
@@ -341,7 +341,7 @@ var/datum/planet/pollux/planet_pollux = null
 		WEATHER_OVERCAST = 5
 		)
 
-/datum/weather/pollux/storm/process_effects()
+/datum/weather/mars/storm/process_effects()
 	..()
 	for(var/mob/living/L in living_mob_list)
 		if(L.z in holder.our_planet.expected_z_levels)
@@ -371,14 +371,14 @@ var/datum/planet/pollux/planet_pollux = null
 
 // This gets called to do lightning periodically.
 // There is a seperate function to do the actual lightning strike, so that badmins can play with it.
-/datum/weather/pollux/storm/proc/handle_lightning()
+/datum/weather/mars/storm/proc/handle_lightning()
 	if(world.time < next_lightning_strike)
 		return // It's too soon to strike again.
 	next_lightning_strike = world.time + rand(min_lightning_cooldown, max_lightning_cooldown)
 	var/turf/T = pick(holder.our_planet.planet_floors) // This has the chance to 'strike' the sky, but that might be a good thing, to scare reckless pilots.
 	lightning_strike(T)
 
-/datum/weather/pollux/hail
+/datum/weather/mars/hail
 	name = "hail"
 	icon_state = "hail"
 	temp_high = T0C		// 0c
@@ -402,7 +402,7 @@ var/datum/planet/pollux/planet_pollux = null
 		"An intense chill is felt, and chunks of ice start to fall from the sky, towards you."
 	)
 
-/datum/weather/pollux/hail/process_effects()
+/datum/weather/mars/hail/process_effects()
 	..()
 	for(var/mob/living/carbon/human/H in living_mob_list)
 		if(H.z in holder.our_planet.expected_z_levels)
@@ -425,7 +425,7 @@ var/datum/planet/pollux/planet_pollux = null
 						to_chat(H, "<span class='notice'>Hail patters gently onto your umbrella.</span>")
 					continue
 */
-/datum/weather/pollux/blood_moon
+/datum/weather/mars/blood_moon
 	name = "blood moon"
 	light_modifier = 0.5
 	light_color = "#FF0000"
@@ -442,7 +442,7 @@ var/datum/planet/pollux/planet_pollux = null
 //	indoor_sounds_type = /datum/looping_sound/weather/wind/indoors
 
 // Ash and embers fall forever, such as from a volcano or something.
-/datum/weather/pollux/emberfall
+/datum/weather/mars/emberfall
 	name = "emberfall"
 	icon_state = "ashfall_light"
 	light_modifier = 0.7
@@ -461,7 +461,7 @@ var/datum/planet/pollux/planet_pollux = null
 //	indoor_sounds_type = /datum/looping_sound/weather/wind/indoors
 
 // Like the above but a lot more harmful.
-/datum/weather/pollux/ash_storm
+/datum/weather/mars/ash_storm
 	name = "ash storm"
 	icon_state = "ashfall_heavy"
 	light_modifier = 0.1
@@ -480,7 +480,7 @@ var/datum/planet/pollux/planet_pollux = null
 //	outdoor_sounds_type = /datum/looping_sound/weather/outside_blizzard
 //	indoor_sounds_type = /datum/looping_sound/weather/inside_blizzard
 
-/datum/weather/pollux/ash_storm/process_effects()
+/datum/weather/mars/ash_storm/process_effects()
 	..()
 	for(var/thing in living_mob_list)
 		var/mob/living/L = thing
@@ -493,7 +493,7 @@ var/datum/planet/pollux/planet_pollux = null
 
 
 // Totally radical.
-/datum/weather/pollux/fallout
+/datum/weather/mars/fallout
 	name = "fallout"
 	icon_state = "fallout"
 	light_modifier = 0.7
@@ -519,7 +519,7 @@ var/datum/planet/pollux/planet_pollux = null
 	var/fallout_rad_low = 25
 	var/fallout_rad_high = 75
 
-/datum/weather/pollux/fallout/process_effects()
+/datum/weather/mars/fallout/process_effects()
 	..()
 	for(var/thing in living_mob_list)
 		var/mob/living/L = thing
@@ -533,7 +533,7 @@ var/datum/planet/pollux/planet_pollux = null
 
 // This makes random tiles near people radioactive for awhile.
 // Tiles far away from people are left alone, for performance.
-/datum/weather/pollux/fallout/proc/irradiate_nearby_turf(mob/living/L)
+/datum/weather/mars/fallout/proc/irradiate_nearby_turf(mob/living/L)
 	if(!istype(L))
 		return
 	var/list/turfs = RANGE_TURFS(world.view, L)
@@ -543,7 +543,7 @@ var/datum/planet/pollux/planet_pollux = null
 	if(T.outdoors)
 		SSradiation.radiate(T, rand(fallout_rad_low, fallout_rad_high))
 
-/datum/weather/pollux/acid_rain
+/datum/weather/mars/acid_rain
 	name = "acid rain"
 	icon_state = "acid_rain"
 	light_modifier = 0.5
@@ -562,7 +562,7 @@ var/datum/planet/pollux/planet_pollux = null
 	)
 
 
-/datum/weather/pollux/acid_rain/process_effects()
+/datum/weather/mars/acid_rain/process_effects()
 	..()
 	for(var/mob/living/L in living_mob_list)
 		if(L.z in holder.our_planet.expected_z_levels)
@@ -588,7 +588,7 @@ var/datum/planet/pollux/planet_pollux = null
 			if(show_message)
 				to_chat(L, effect_message)
 
-/datum/weather/pollux/rad_storm
+/datum/weather/mars/rad_storm
 	name = "radiation storm"
 	icon_state = "rad_storm"
 	light_modifier = 0.3
@@ -605,7 +605,7 @@ var/datum/planet/pollux/planet_pollux = null
 		"The clouds begin to turn green, something seems terribly wrong."
 	)
 
-/datum/weather/pollux/carpfall
+/datum/weather/mars/carpfall
 	name = "carpfall"
 
 	var/next_carpfall = 0 // world.time when carps fall.
@@ -624,12 +624,12 @@ var/datum/planet/pollux/planet_pollux = null
 		"The smell of sea salt and sushi fills the air, something seems terribly wrong."
 	)
 
-/datum/weather/pollux/carpfall/process_effects()
+/datum/weather/mars/carpfall/process_effects()
 	..()
 	handle_carps()
 
 
-/datum/weather/pollux/carpfall/proc/handle_carps()
+/datum/weather/mars/carpfall/proc/handle_carps()
 	if(world.time < next_carpfall)
 		return // It's too soon to strike again.
 
@@ -655,7 +655,7 @@ var/datum/planet/pollux/planet_pollux = null
 					new /obj/effect/falling_effect/carpfall(X)
 
 
-/datum/weather/pollux/carpnado
+/datum/weather/mars/carpnado
 	name = "carpnado"
 
 	var/next_carpfall = 0 // world.time when carps fall.
@@ -673,12 +673,12 @@ var/datum/planet/pollux/planet_pollux = null
 		"The smell of natural disaster and seaweed fills the air."
 	)
 
-/datum/weather/pollux/carpnado/process_effects()
+/datum/weather/mars/carpnado/process_effects()
 	..()
 	handle_carps()
 
 
-/datum/weather/pollux/carpnado/proc/handle_carps()
+/datum/weather/mars/carpnado/proc/handle_carps()
 	if(world.time < next_carpfall)
 		return // It's too soon to strike again.
 

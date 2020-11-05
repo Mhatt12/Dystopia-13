@@ -27,7 +27,7 @@
 							"blank",
 							"gentrified",
 							"legalcoke",
-							"pollux",
+							"mars",
 							"vacay",
 							"atluscity",
 							"sunstar",

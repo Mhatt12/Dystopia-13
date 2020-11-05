@@ -48,7 +48,7 @@
 	name = "The Nibble Before the Chew"
 	author = "Hamilton Overstreet"
 	description = "Another company BBQ is going to happen soon and all we have planned out are ribs and hotdogs. I need something \
-	out there to impress the boss and steal the show. Do you have anything edible on Pollux that I can throw on the grill?"
+	out there to impress the boss and steal the show. Do you have anything edible on Mars that I can throw on the grill?"
 
 	items_wanted = list(/obj/item/weapon/reagent_containers/food/snacks/xenomeat/spidermeat = 4)
 

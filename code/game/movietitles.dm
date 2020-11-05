@@ -11,7 +11,7 @@
 	var/list/cast = list()
 	var/list/chunk = list()
 	var/chunksize = 0
-	titles += "<center><h1>EPISODE [rand(1,1000)] - THE [pick("DOWNFALL OF","RISE OF","TROUBLE WITH","FINAL STAND OF","DARK SIDE OF")] [pick("CITY FOLK","THE CORRUPT METROPOLIS","THE CLASS WAR","COLONY LIFE","THE WAGE SLAVES","THE POLLUXIANS","[uppertext(using_map.station_name)]")]</h1></center>"
+	titles += "<center><h1>EPISODE [rand(1,1000)] - THE [pick("DOWNFALL OF","RISE OF","TROUBLE WITH","FINAL STAND OF","DARK SIDE OF")] [pick("CITY FOLK","THE CORRUPT METROPOLIS","THE CLASS WAR","COLONY LIFE","THE WAGE SLAVES","THE MARTIANS","[uppertext(using_map.station_name)]")]</h1></center>"
 	for(var/mob/living/carbon/human/H in player_list)
 		if(!cast.len && !chunksize)
 			chunk += "CAST:"

@@ -324,11 +324,11 @@ AI MODULES
 
 /******************** Corporate ********************/
 
-/obj/item/weapon/aiModule/pollux
-	name = "\improper 'Polluxian' core AI module"
-	desc = "A 'Polluxian' Core AI Module: 'Reconfigures the AI's core laws.'"
+/obj/item/weapon/aiModule/mars
+	name = "\improper 'Martian' core AI module"
+	desc = "A 'Martian' Core AI Module: 'Reconfigures the AI's core laws.'"
 	origin_tech = list(TECH_DATA = 3, TECH_MATERIAL = 4)
-	laws = new/datum/ai_laws/pollux
+	laws = new/datum/ai_laws/mars
 
 /******************** Drone ********************/
 /obj/item/weapon/aiModule/drone

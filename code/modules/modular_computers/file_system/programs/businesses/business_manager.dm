@@ -226,7 +226,7 @@
 		if("No" == alert("Register [b_name] for 3,500 credits?", "Register Business", "No", "Yes"))
 			return
 
-		if(!attempt_account_access(acc_no, acc_pin, 2) || !charge_to_account(acc_no, "Business Registrar", "[b_name] registration", "Polluxian Business Registration", -3500))
+		if(!attempt_account_access(acc_no, acc_pin, 2) || !charge_to_account(acc_no, "Business Registrar", "[b_name] registration", "Martian Business Registration", -3500))
 			reg_error = "There was an error charging your bank account. Please contact your bank's administrator."
 			return
 		else
@@ -314,7 +314,7 @@
 		if("No" == alert("Rebrand [current_business.name] for 500 credits?", "Rebrand Business", "No", "Yes"))
 			return
 
-		if(!attempt_account_access(acc_no, acc_pin, 2) || !charge_to_account(acc_no, "Business Registrar", "[current_business.name] Rebranding", "Polluxian Business Registration", -500))
+		if(!attempt_account_access(acc_no, acc_pin, 2) || !charge_to_account(acc_no, "Business Registrar", "[current_business.name] Rebranding", "Martian Business Registration", -500))
 			reg_error = "There was an error charging your bank account. Please contact your bank's administrator."
 			return
 

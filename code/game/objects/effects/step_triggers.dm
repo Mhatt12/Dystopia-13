@@ -159,8 +159,8 @@ var/global/list/tele_landmarks = list() // Terrible, but the alternative is loop
 	var/datum/planet/planet = null
 
 
-/obj/effect/step_trigger/teleporter/planetary_fall/pollux/initialize()
-	planet = planet_pollux
+/obj/effect/step_trigger/teleporter/planetary_fall/mars/initialize()
+	planet = planet_mars
 
 /obj/effect/step_trigger/teleporter/planetary_fall/Trigger(var/atom/movable/A)
 	if(planet)

@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aaa" = (
-/turf/unsimulated/wall/planetary/pollux,
+/turf/unsimulated/wall/planetary/mars,
 /area/planets/Geminus/outdoor/central)
 "aab" = (
 /turf/simulated/wall/iron,
@@ -196,7 +196,7 @@
 	dir = 4;
 	icon_state = "straight"
 	},
-/turf/simulated/floor/outdoors/mud/pollux,
+/turf/simulated/floor/outdoors/mud/mars,
 /area/planets/Geminus/outdoor/central)
 "aaS" = (
 /obj/structure/fence/door,
@@ -420,7 +420,7 @@
 /turf/simulated/floor/outdoors/dirt,
 /area/planets/Geminus/outdoor/central)
 "abz" = (
-/turf/simulated/floor/outdoors/mud/pollux,
+/turf/simulated/floor/outdoors/mud/mars,
 /area/planets/Geminus/outdoor/central)
 "abA" = (
 /turf/simulated/floor/water,
@@ -3304,7 +3304,7 @@
 /turf/simulated/floor/tiled/white,
 /area/lots/business/business_lot_three)
 "ajN" = (
-/turf/simulated/floor/outdoors/mud/pollux,
+/turf/simulated/floor/outdoors/mud/mars,
 /area/planets/Geminus/outdoor/west)
 "ajO" = (
 /obj/item/weapon/stool/wooden,
@@ -3930,7 +3930,7 @@
 /area/lots/business/business_lot_four)
 "alw" = (
 /obj/vehicle/boat,
-/turf/simulated/floor/outdoors/mud/pollux,
+/turf/simulated/floor/outdoors/mud/mars,
 /area/planets/Geminus/outdoor/central)
 "alx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6924,7 +6924,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/lots/business/business_lot_four)
 "atM" = (
-/turf/simulated/mineral/floor/pollux,
+/turf/simulated/mineral/floor/mars,
 /area/mine/explored)
 "atN" = (
 /obj/structure/painting/random,
@@ -7183,7 +7183,7 @@
 	icon_state = "orange1";
 	tag = "icon-orange1 (WEST)"
 	},
-/turf/simulated/mineral/floor/pollux,
+/turf/simulated/mineral/floor/mars,
 /area/mine/explored)
 "auB" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -7660,7 +7660,7 @@
 /area/mine/explored)
 "avK" = (
 /obj/structure/flora/ausbushes/sunnybush,
-/turf/simulated/floor/outdoors/mud/pollux,
+/turf/simulated/floor/outdoors/mud/mars,
 /area/planets/Geminus/outdoor/west)
 "avL" = (
 /obj/structure/filingcabinet/filingcabinet,
@@ -8942,7 +8942,7 @@
 	icon_state = "orange1";
 	tag = "icon-orange1 (EAST)"
 	},
-/turf/simulated/mineral/floor/pollux,
+/turf/simulated/mineral/floor/mars,
 /area/mine/explored)
 "azh" = (
 /turf/simulated/floor/tiled,
@@ -10160,7 +10160,7 @@
 	icon_state = "orange1";
 	dir = 8
 	},
-/turf/simulated/mineral/floor/pollux,
+/turf/simulated/mineral/floor/mars,
 /area/mine/explored)
 "aCB" = (
 /obj/machinery/door/airlock/glass_security{
@@ -10739,11 +10739,11 @@
 	dir = 8;
 	icon_state = "straight"
 	},
-/turf/simulated/mineral/floor/pollux,
+/turf/simulated/mineral/floor/mars,
 /area/mine/explored)
 "aEc" = (
 /obj/structure/fence/door,
-/turf/simulated/mineral/floor/pollux,
+/turf/simulated/mineral/floor/mars,
 /area/mine/explored)
 "aEd" = (
 /obj/structure/disposalpipe/segment,
@@ -25346,7 +25346,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/lots/business/business_lot_three)
 "bpH" = (
-/turf/simulated/floor/outdoors/mud/pollux,
+/turf/simulated/floor/outdoors/mud/mars,
 /area/mine/explored)
 "bpI" = (
 /obj/machinery/door/airlock,

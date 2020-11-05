@@ -92,7 +92,7 @@
 	author = "Obsidienne Fashion Conglomerate"
 	description = "Gold is so last season. Obsidienne is launching a new line of platinum threaded handbags for the chic and fashionable. We will be \
 	modelling the handbags during Sinon Fashion Week. 50 platinum ingots should be enough to develop the iterations of our prototype handbag. Suppliers \
-	of platinum ingots will be rewarded handsomely for ensuring the continued fashionability of the people of Pollux."
+	of platinum ingots will be rewarded handsomely for ensuring the continued fashionability of the people of Mars."
 
 	stacks_wanted = list("platinum" = 50)
 
@@ -116,7 +116,7 @@
 
 /datum/bounty/mining/gorilla_warfare
 	name = "Aerial Superiority"
-	author = "Polluxian Air Force"
+	author = "Martian Air Force"
 	description = "This is a public contract available to all civilian industries. Large quantities of durasteel are required for military purposes. Payment \
 	will be wired upon completion of the contract."
 
@@ -245,7 +245,7 @@
 	name = "Mechatronic Dreams"
 	author = "Lark Industries"
 	description = "Our team is currently working on a new generation of exosuits for use in the industrial sector and we need titanium to construct our prototypes. The next generation of mechas will \
-	prove to be unparalleled by any other company on Pollux. Lark Industries will become a household name for its groundbreaking innovations in chassis design!"
+	prove to be unparalleled by any other company on Mars. Lark Industries will become a household name for its groundbreaking innovations in chassis design!"
 
 	stacks_wanted = list("titanium" = 200)
 
@@ -272,7 +272,7 @@
 /*
 /datum/bounty/mining/public_works
 	name = "Open Contract: Public Works"
-	author = "Government of Pollux"
+	author = "Government of Mars"
 	description = "The Government of Mars formally requests the following materials for use in Public Works projects. Under our Tranparency Policy, the assets will be used for the field \
 	level maintenance, field service representative support, contingency maintenance support, new equipment training and total package fielding for the family of Ubentia auto-loader vehicles \
 	and construction line. Further information about this contract can be found at publicworks.gov.nt using the tracking code PWOC-1008-2564V."
@@ -315,7 +315,7 @@
 	name = "Open Contract: Ultraconductor"
 	author = "Einstein Engines, LLC."
 	description = "We believe that a new era of megastructural engineering is coming soon. Based on centuries old research, we believe we are close to developing a new type of ultraconductor using \
-	\"superatoms\" of aluminium. This contract is available to all Extraction Industries on Pollux until such time as our research has been completed."
+	\"superatoms\" of aluminium. This contract is available to all Extraction Industries on Mars until such time as our research has been completed."
 
 	stacks_wanted = list("aluminium" = 1250)
 

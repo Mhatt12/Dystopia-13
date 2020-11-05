@@ -253,7 +253,7 @@
 
 /obj/item/weapon/storage/pill_bottle/penicillin
 	name = "bottle of Penicillin pills"
-	desc = "A theta-lactam antibiotic. Effective against many diseases likely to be encountered in Pollux."
+	desc = "A theta-lactam antibiotic. Effective against many diseases likely to be encountered in Mars."
 	starts_with = list(/obj/item/weapon/reagent_containers/pill/penicillin = 7)
 
 /obj/item/weapon/storage/pill_bottle/tramadol

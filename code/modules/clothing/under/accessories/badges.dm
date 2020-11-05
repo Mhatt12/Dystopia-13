@@ -161,7 +161,7 @@
 	name = "agent's holobadge"
 	desc = "An immaculately polished gold badge on leather. Labeled 'PDSI Agent.'"
 	icon_state = "marshalbadge"
-	badge_string = "Pollux Division of Special Investigation"
+	badge_string = "Mars Division of Special Investigation"
 	slot_flags = SLOT_TIE | SLOT_BELT
 
 /obj/item/clothing/accessory/badge/press

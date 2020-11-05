@@ -128,7 +128,7 @@
 
 	description = "Welcome to hell. Between the actual criminals and the criminally insane, \
 	this is the first day on your trip downhill into a meltdown, so have fun! \
-	Your duties are simple, just read Pollux Law, and any relevant procedures and regulations, \
+	Your duties are simple, just read Mars Law, and any relevant procedures and regulations, \
 	and enforce them within reason, or don't."
 
 	duties = list("Arrest criminals", "Beg higher-ups for warrants", "Cry over arrest reports", "Empty the donut box", "Survive")
@@ -136,4 +136,3 @@
 
 /datum/job/officer/get_job_email()
 	return using_map.police_email
-

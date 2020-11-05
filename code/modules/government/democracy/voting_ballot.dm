@@ -21,7 +21,7 @@
 		ckey = H.ckey
 
 	var/dat = "<h1>Official Voting Ballot</h1>"
-	dat += "<i>All votes matter, [real_name]</i>. This is one of the many Polluxian ballot boxes vital to this election. <p>Here, you may place <b>one</b> vote for a candidate you believe should be the next president during the voting period during the 21st to the 27th. Your votes are anonymous.<br>"
+	dat += "<i>All votes matter, [real_name]</i>. This is one of the many Martian ballot boxes vital to this election. <p>Here, you may place <b>one</b> vote for a candidate you believe should be the next president during the voting period during the 21st to the 27th. Your votes are anonymous.<br>"
 
 	if(get_dist(src,H) <= 1)
 		if(SSelections && SSelections.current_president)
@@ -191,5 +191,3 @@
 			SSelections.recount_votes()
 
 	updateDialog()
-
-

@@ -36,8 +36,8 @@ obj/item/weapon/book/codex/lore/news
 */
 
 /obj/item/weapon/book/codex/lore/vir
-	name = "The Traveler's Guide to Human Space: Pollux Edition"
-	desc = "Contains useful information about the world around you.  It seems to have been written for travelers to Vir, human or not.   It also \
+	name = "The Traveler's Guide to Human Space: Martian Edition"
+	desc = "Contains useful information about the world around you.  It also \
 	has the words 'Don't Panic' in small, friendly letters on the cover."
 	icon_state = "codex"
 	root_type = /datum/lore/codex/category/main_vir_lore
@@ -47,6 +47,3 @@ obj/item/weapon/book/codex/lore/news
 	desc = "Recommended reading for the newly cyborgified, new positronics, and the upwardly-mobile FBP."
 	icon_state = "codex_robutt"
 	root_type = /datum/lore/codex/category/main_robutts
-
-
-

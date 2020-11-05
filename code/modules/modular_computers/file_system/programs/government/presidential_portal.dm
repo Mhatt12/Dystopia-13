@@ -618,7 +618,7 @@
 	if(href_list["citizenship_vote"])
 		. = 1
 
-		var/vote_status = input(usr, "Please select a voting status for non-Polluxian citizens.", "Citizenship Vote") as null|anything in list("Able to vote", "Disallowed from voting")
+		var/vote_status = input(usr, "Please select a voting status for non-Martian citizens.", "Citizenship Vote") as null|anything in list("Able to vote", "Disallowed from voting")
 		if(vote_status == "Able to vote")
 			persistent_economy.citizenship_vote = TRUE
 		else

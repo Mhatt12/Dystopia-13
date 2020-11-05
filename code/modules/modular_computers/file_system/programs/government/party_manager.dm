@@ -197,7 +197,7 @@
 		if("No" == alert("Create [p_name] party for 3,500 credits?", "Create Party", "No", "Yes"))
 			return
 
-		if(!attempt_account_access(acc_no, acc_pin, 2) || !charge_to_account(acc_no, "Party Registrar", "[p_name] registration", "Polluxian Party Registration", -3500))
+		if(!attempt_account_access(acc_no, acc_pin, 2) || !charge_to_account(acc_no, "Party Registrar", "[p_name] registration", "Martian Party Registration", -3500))
 			reg_error = "There was an error charging your bank account. Please contact your bank's administrator."
 			return
 		else

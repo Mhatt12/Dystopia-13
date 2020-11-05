@@ -45,7 +45,7 @@ SUBSYSTEM_DEF(elections)
 	var/ckey
 	var/datum/party/polticial_party
 	var/slogan = "Vote for me!"
-	var/pitch = "Make Pollux Great Again."
+	var/pitch = "Make Mars Great Again."
 	var/list/ckeys_voted = list()
 	var/list/no_confidence_votes = list()
 	var/party
@@ -369,9 +369,9 @@ SUBSYSTEM_DEF(elections)
 
 	message = "<b>Castor Headquarters: [full_game_time()]</b> - Electoral Assistants of [using_map.boss_name] have counted the final votes and \
 	presented the electoral results to all, there were [last_election_votes] total. \
-	People from several continents on Pollux watched as the name was pulled from the traditional ballot hat. \
+	People from several continents on Mars watched as the name was pulled from the traditional ballot hat. \
 	<br><br>Millions of people gathered in-person to watch the event, others stayed home to observe their televisions and communicator screens \
-	as they watch Pollux's moon through their screens. Many [pick(prospectors)] [pick(getformernames())] would win based on the monthly election president website \
+	as they watch Mars through their screens. Many [pick(prospectors)] [pick(getformernames())] would win based on the monthly election president website \
 	electionpredictions.nt."
 
 

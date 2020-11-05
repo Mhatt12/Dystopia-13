@@ -1305,7 +1305,7 @@
 	/obj/item/clothing/head/beret/policered = 4,
 	/obj/item/clothing/suit/storage/toggle/policejacket = 4,
 	/obj/item/clothing/suit/storage/toggle/hazardvest/brightgreen = 4,
-	
+
 	)
 
 /obj/machinery/vending/security/prisoner
@@ -2356,7 +2356,7 @@
 
 /obj/machinery/vending/luxvend
 	name = "LuxVend"
-	desc = "LuxVend - For the Polluxian who has everything. This machine is sponsored by the fashion company, Obsidienne."
+	desc = "LuxVend - For the Martian who has everything. This machine is sponsored by the fashion company, Obsidienne."
 	icon_state = "luxvend"
 	icon_deny = "luxvend-deny"
 	vend_delay = 8
@@ -2404,4 +2404,3 @@
 					/obj/item/clothing/accessory/badge/rich = 75000
 					)
 	vendor_department = DEPT_PUBLIC
-

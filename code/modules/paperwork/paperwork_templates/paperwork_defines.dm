@@ -172,8 +172,7 @@
 // GOVERNMENT
 
 /datum/paperwork_template/pdsi_report
-	name = "Pollux Division of Special Investigations Report"
-	title = "PDSI Report"
+	name = "Mars Division of Special Investigations Report"
+	title = "MDSI Report"
 	categories = list(PAPERWORK_GOVERNMENT)
 	file_source = 'code/modules/paperwork/paperwork_templates/government/pdsireport.txt'
-

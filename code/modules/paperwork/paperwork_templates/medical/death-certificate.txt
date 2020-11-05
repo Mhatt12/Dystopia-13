@@ -1,4 +1,4 @@
-[table][row][cell][center][logo][cell][b]Government of Pollux
+[table][row][cell][center][logo][cell][b]Government of Mars
 Registrar General's Department[cell][b][center]Form DTHCER
 Rev. 2564.3[row][cell][b]Deceased's First Name[/b]
 [field][cell][b]Deceased's Middle Name[/b]

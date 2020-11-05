@@ -80,7 +80,7 @@ var/activetype = null //Is this a search or arrest warrtant?
 		var/output= {"
 		<HTML><HEAD><TITLE>Search Warrant: [activename]</TITLE></HEAD>
 		<BODY bgcolor='#FFFFFF'><center>in the jurisdiction of the</br>
-		Colonial Polluxian Government</br>
+		Colonial Martian Government</br>
 		</br>
 		<b>SEARCH WARRANT</b></center></br>
 		</br>
