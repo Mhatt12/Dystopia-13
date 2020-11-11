@@ -1,8 +1,24 @@
+//--------Index
+//------.30-06
+//------.303
+//------.43
+//------.45-70 Gov
+//------.577/450
+//------6.5
+//------7.62
+//------7.65x53
+//------7x57
+//------7.7x58
+//------7.92x57
+//------8x50
+//------8x53
+
 // For all intents and purposes, these work exactly the same as pump shotguns. It's unnecessary to make their own procs for them.
 
 /obj/item/weapon/gun/projectile/shotgun/pump/rifle
 	name = "bolt action rifle"
 	desc = "A reproduction of an almost ancient weapon design from the early 20th century. It's still popular among hunters and collectors due to its reliability. Uses 7.62mm rounds."
+	icon = 'icons/obj/guns/projecticle/rifles.dmi'
 	item_state = "boltaction"
 	icon_state = "boltaction"
 	fire_sound = 'sound/weapons/rifleshot.ogg'
@@ -13,10 +29,75 @@
 	load_method = SINGLE_CASING|SPEEDLOADER
 	action_sound = 'sound/weapons/riflebolt.ogg'
 
+//------.30-06
+
+
+
+//------.303
+
+
+
+//------.43
+
+
+
+//------.45-70 Gov
+
+/obj/item/weapon/gun/projectile/shotgun/pump/rifle/singleshot
+	name = "Sharps Rifle"
+	desc = "A single-shot, falling block rifle, with a long range. Uses .45-70 cartridges."
+	icon_state = "sharps"
+	item_state = "shotgun"
+	max_shells = 1
+	caliber = ".45-70"
+	ammo_type = /obj/item/ammo_casing/a4570
+	load_method = SINGLE_CASING
+
+
+	//------.577/450
+
+/obj/item/weapon/gun/projectile/shotgun/pump/rifle/singleshot/martini_henry
+	name = "Martini-Henry Rifle"
+	desc = "A single-shot, falling block rifle with a long range. Uses .577/450 cartridges."
+	icon_state = "martini_henry"
+	item_state = "shotgun"
+	caliber = ".577/450"
+	ammo_type = /obj/item/ammo_casing/a577450
+
+//------6.5
+
+//--------ARISKA 30
+/obj/item/weapon/gun/projectile/shotgun/pump/rifle/ariska30
+	name = "Ariska Type 30"
+	desc = "Japanese bolt-action rifle chambared in 6.5mm ammunition."
+	icon_state = "arisaka30"
+	item_state = "arisaka30"
+	caliber = "6.5mm"
+	ammo_type = /obj/item/ammo_casing/a65
+
+
+//------7.62
+
+//--------LEVER ACTION RIFLE
+/obj/item/weapon/gun/projectile/shotgun/pump/rifle/lever
+	name = "lever-action rifle"
+	desc = "A reproduction of an almost ancient weapon design from the 19th century. This one uses a lever-action to move new rounds into the chamber. Uses 7.62mm rounds."
+	item_state = "leveraction"
+	icon_state = "leveraction"
+	fire_sound = 'sound/weapons/rifleshot.ogg'
+	max_shells = 5
+	caliber = "7.62mm"
+	origin_tech = list(TECH_COMBAT = 1)// Old as shit rifle doesn't have very good tech.
+	ammo_type = /obj/item/ammo_casing/a762
+	load_method = SINGLE_CASING|SPEEDLOADER
+	action_sound = 'sound/weapons/riflebolt.ogg'
+
+//--------PRACTICE RIFLE
 /obj/item/weapon/gun/projectile/shotgun/pump/rifle/practice // For target practice
 	desc = "A bolt-action rifle with a lightweight synthetic wood stock, designed for competitive shooting. Comes shipped with practice rounds pre-loaded into the gun. Popular among professional marksmen. Uses 7.62mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762p
 
+//--------CEREMONIAL RIFLE
 /obj/item/weapon/gun/projectile/shotgun/pump/rifle/ceremonial
 	name = "ceremonial bolt-action rifle"
 	desc = "A bolt-action rifle with a heavy, high-quality wood stock that has a beautiful finish. Clearly not intended to be used in combat. Uses 7.62mm rounds."
@@ -47,17 +128,45 @@
 	else
 		..()
 
+//--------MAKESHIFT RIFLE
+/obj/item/weapon/gun/projectile/shotgun/pump/rifle/singleshot/makeshiftbolt
+	name = "Makeshift Bolt"
+	desc = "A single-shot, makeshift bolt rifle."
+	icon = 'icons/obj/guns/projecticle/makeshift'
+	icon_state = "makeshiftbolt"
+	item_state = "shotgun"
+	caliber = "7.62"
+	ammo_type = /obj/item/ammo_casing/a762
+
+//-------- MOSIN M30
+/obj/item/weapon/gun/projectile/shotgun/pump/rifle/mosin/m30
+	name = "Mosin 91/30"
+	desc = "A modernized version of the original M1891. Bolt-action rifle chambered in 7.62 cartridges."
+	icon_state = "mosin30"
+	item_state = "mosin30"
+	caliber = "7.62"
+	ammo_type = /obj/item/ammo_casing/a762
+
+//------7x57
+
+
+
+//------7.7x58
+
+
+
+//------7.92x57
+
+
+
+//------8x50
+
+
+
+//------8x53
+
+
+
+
 
 //Lever actions are the same thing, but bigger.
-/obj/item/weapon/gun/projectile/shotgun/pump/rifle/lever
-	name = "lever-action rifle"
-	desc = "A reproduction of an almost ancient weapon design from the 19th century. This one uses a lever-action to move new rounds into the chamber. Uses 7.62mm rounds."
-	item_state = "leveraction"
-	icon_state = "leveraction"
-	fire_sound = 'sound/weapons/rifleshot.ogg'
-	max_shells = 5
-	caliber = "7.62mm"
-	origin_tech = list(TECH_COMBAT = 1)// Old as shit rifle doesn't have very good tech.
-	ammo_type = /obj/item/ammo_casing/a762
-	load_method = SINGLE_CASING|SPEEDLOADER
-	action_sound = 'sound/weapons/riflebolt.ogg'
